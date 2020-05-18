@@ -24,6 +24,7 @@ export const initialState = { //초기값
     searchError: '', //검색에러
     isOpenedDraw: false, //팔로우리스트 열고 닫기
     isFollowedUser: false,
+    isAddedTodo: false,
 };
 
 //로그인하는 액션
@@ -292,10 +293,12 @@ const reducer = (state = initialState, action) => {
                 break;
             }
             case ADD_TODO_REQUEST: {
+                draft.isAddedTodo = false;
                 break;
             }
             case ADD_TODO_SUCCESS: {
                 draft.todoList.unshift(action.data);
+                draft.isAddedTodo = true;
                 // draft.todoList = [];
                 // action.data.forEach((d) => {
                 //     draft.followingList.push(d);

@@ -13,7 +13,7 @@ import {
 import FollowDrawer from "../components/FollowDrawer";
 import {useRouter} from "next/router";
 import MainCardDiary from "../components/MainCardDiary";
-import TodoList from "../components/TodoList";
+import TodoList from "../containers/TodoList";
 import Typography from "@material-ui/core/Typography";
 import {mainStyle} from "../styles/mainStyles";
 
