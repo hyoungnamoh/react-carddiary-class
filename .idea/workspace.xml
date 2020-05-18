@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e307ad-c068-4d77-a97e-951e25846e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/containers/MyInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/containers/MyInfoEdit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/components/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/MyInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/MyInfoEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/MyInfoEdit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/pages/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/reducers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/reducers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/containers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,19 +35,24 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ReactWorkspace\react-carddiary-class\front\containers" />
+      <recent name="C:\ReactWorkspace\react-carddiary-class\front" />
+      <recent name="C:\ReactWorkspace\react-carddiary-class\back" />
+      <recent name="C:\ReactWorkspace\react-carddiary\front\styles" />
+      <recent name="C:\ReactWorkspace\react-carddiary\back\models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\ReactWorkspace\react-carddiary-class" />
       <recent name="C:\ReactWorkspace\react-carddiary\front\public" />
       <recent name="C:\ReactWorkspace\react-carddiary\front\components" />
       <recent name="C:\ReactWorkspace\react-carddiary\front\pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ReactWorkspace\react-carddiary-class\front" />
-      <recent name="C:\ReactWorkspace\react-carddiary-class\back" />
-      <recent name="C:\ReactWorkspace\react-carddiary\front\styles" />
-      <recent name="C:\ReactWorkspace\react-carddiary\back\models" />
-      <recent name="C:\ReactWorkspace\react-carddiary\front\public" />
-    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="," />
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +97,7 @@
       <workItem from="1589245537417" duration="3626000" />
       <workItem from="1589552414426" duration="6634000" />
       <workItem from="1589640271221" duration="674000" />
-      <workItem from="1589772515913" duration="13821000" />
+      <workItem from="1589772515913" duration="19274000" />
     </task>
     <servers />
   </component>
@@ -149,14 +153,14 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="450" y="191" width="874" height="538" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589782127436" />
-    <state x="510" y="238" key="run.anything.popup" timestamp="1588827086887">
+    <state x="510" y="238" key="run.anything.popup" timestamp="1589804798961">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="510" y="238" key="run.anything.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1588827086887" />
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589785882872">
+    <state x="510" y="238" key="run.anything.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589804798961" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589805754418">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589785882872" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589805754418" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

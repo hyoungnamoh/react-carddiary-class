@@ -4,7 +4,7 @@ import {LOAD_FAVORITE_REQUEST, LOAD_USER_DIARIES_REQUEST} from "../reducers/diar
 import {useDispatch, useSelector} from "react-redux";
 import Typography from '@material-ui/core/Typography';
 import {CHANGE_CURRENTPAGE_REQUEST, LOAD_FOLLOWINGLIST_REQUEST, LOAD_USER_REQUEST,} from "../reducers/user";
-import MyInfoEdit from "../components/MyInfoEdit";
+import MyInfoEdit from "../containers/MyInfoEdit";
 import MyInfo from "../containers/MyInfo";
 import {yellow} from "@material-ui/core/colors";
 import {useRouter} from "next/router";
