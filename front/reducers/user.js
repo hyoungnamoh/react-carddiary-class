@@ -23,6 +23,7 @@ export const initialState = { //초기값
     searchResult: {}, //검색결과
     searchError: '', //검색에러
     isOpenedDraw: false, //팔로우리스트 열고 닫기
+    isFollowedUser: false,
 };
 
 //로그인하는 액션
@@ -120,6 +121,11 @@ export const REQUEST_MAIN_LOG = 'REQUEST_MAIN_LOG';
 export const REQUEST_SWITCHING_DRAW = 'REQUEST_SWITCHING_DRAW';
 export const SUCCESS_SWITCHING_DRAW = 'SUCCESS_SWITCHING_DRAW';
 export const FAILURE_SWITCHING_DRAW = 'FAILURE_SWITCHING_DRAW';
+
+//유저 페이지 팔로우 버튼 초기화
+export const REQUEST_INIT_FOLLOWED = 'REQUEST_INIT_FOLLOWED';
+export const SUCCESS_INIT_FOLLOWED = 'SUCCESS_INIT_FOLLOWED';
+export const FAILURE_INIT_FOLLOWED = 'FAILURE_INIT_FOLLOWED';
 
 
 //setState
@@ -227,6 +233,7 @@ const reducer = (state = initialState, action) => {
                 action.data.forEach((d) => {
                     draft.followingList.push(d);
                 });
+                draft.isFollowedUser = true;
                 break;
             }
             case ADD_FOLLOW_FAILURE: {
@@ -264,6 +271,7 @@ const reducer = (state = initialState, action) => {
             case REMOVE_FOLLOW_SUCCESS: {
                 const index = draft.followingList.findIndex(v => v.id === action.data);
                 draft.followingList.splice(index, 1);
+                draft.isFollowedUser = false;
                 break;
             }
             case REMOVE_FOLLOW_FAILURE: {
@@ -362,7 +370,16 @@ const reducer = (state = initialState, action) => {
             case FAILURE_SWITCHING_DRAW: {
                 break;
             }
-
+            case REQUEST_INIT_FOLLOWED: {
+                draft.isFollowedUser = action.data;
+                break;
+            }
+            case SUCCESS_INIT_FOLLOWED: {
+                break;
+            }
+            case FAILURE_INIT_FOLLOWED: {
+                break;
+            }
             default : {
               break;
             }
