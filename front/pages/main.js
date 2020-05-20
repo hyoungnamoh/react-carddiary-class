@@ -12,7 +12,7 @@ import {
 } from "../reducers/user";
 import FollowDrawer from "../components/FollowDrawer";
 import {useRouter} from "next/router";
-import MainCardDiary from "../components/MainCardDiary";
+import MainCardDiary from "../containers/MainCardDiary";
 import TodoList from "../containers/TodoList";
 import Typography from "@material-ui/core/Typography";
 import {mainStyle} from "../styles/mainStyles";

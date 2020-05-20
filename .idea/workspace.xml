@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e307ad-c068-4d77-a97e-951e25846e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/containers/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/containers/MainCardDiary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/MainCardDiary.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/MainCardDiary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/reducers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/reducers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1589245537417" duration="3626000" />
       <workItem from="1589552414426" duration="6634000" />
       <workItem from="1589640271221" duration="674000" />
-      <workItem from="1589772515913" duration="22257000" />
+      <workItem from="1589772515913" duration="30254000" />
     </task>
     <servers />
   </component>
@@ -150,18 +149,18 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="1084" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027@0.0.1707.1027" timestamp="1588826779877" />
-    <state x="450" y="191" width="874" height="538" key="find.popup" timestamp="1589782127436">
+    <state x="450" y="191" width="874" height="538" key="find.popup" timestamp="1589958718228">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="450" y="191" width="874" height="538" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589782127436" />
-    <state x="510" y="238" key="run.anything.popup" timestamp="1589804798961">
+    <state x="450" y="191" width="874" height="538" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589958718228" />
+    <state x="510" y="238" width="672" height="677" key="run.anything.popup" timestamp="1589957490496">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="510" y="238" key="run.anything.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589804798961" />
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589810009797">
+    <state x="510" y="238" width="672" height="677" key="run.anything.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589957490496" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589965697066">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589810009797" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1589965697066" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
